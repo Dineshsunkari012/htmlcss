@@ -1,0 +1,169 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="counter.css">
+<style>
+
+
+table{
+background-image:url(R.jpeg);
+background-size:100vh;
+
+}
+</style>
+
+
+
+</head>
+
+<body>
+	<form>
+		<fieldset>
+		<legend><i><h1>Application form</h1></i></legend>
+		<caption>hiii</caption>
+
+		<table align=center bgcolor="#99bbff"  cellspacing=5px cellpadding=5px> 
+			<tr>
+				<td><label for=fname>FirstName:</label></td>
+				<td><input type="text" name=fname placeholder="Enter you name" required></td>		
+			</tr>
+			<tr>
+				<td><label for=lname>LastName</label></td>
+				<td><input type="text"name=lname value=%% required></td>
+			</tr>
+			
+			<tr>
+				
+				<td><label for="mn">PhoneNumber:</label></td>
+				<td>
+				
+					<select>
+		<option value="cpu" selected>+91</option>
+		<option value="cpu">+32</option>
+		<option value="cpu">+95</option>
+		<option value="cpu">+92</option>
+		<option value="cpu">
+	</select>
+			
+				<input type=tel name="mn" required size=13></td>
+			</tr>
+			
+			<tr>
+				<td><label for=em>Email:</label></td>
+				<td><input type=email name=em></td>
+			</tr>
+			
+			<tr>
+				<td><label for=pass> Password:</label></td>
+				<td><input type=email name=em></td>
+			</tr>
+			<tr>
+				<td><label for=pass>Confirm Password:</label></td>
+				<td><input type=password name=em></td>
+			</tr>			
+			<tr>
+				<td>gender</td>
+				<td><input type=radio name="g">
+				<label name="g">Male</label>
+				
+				</td>
+				
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type=radio name="g" >
+				<label name="g">Female</label>
+				</td>
+			</tr>
+			
+			<tr>
+			<td>
+				<label for="clg">Select your Collage:</label>
+			</td>
+				<td><input list="Clg">
+					<datalist id="clg">
+						<option value="cpu">
+						<option value="keyboard">
+						<option value="monitor">
+						<option value="printer">
+						<option value="scanner">
+				</datalist>
+			</td>
+			
+		</tr>
+			
+			
+			
+			
+			
+			
+
+			<tr>
+			<td>Choose your Skills:</td>
+			<td><input type=checkbox name="s">
+			<label for="s"> Python</label>
+			</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type=checkbox name="s">
+				<label for="s">SQl</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type=checkbox name="s">
+				<label for="s">JavaScript</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type=checkbox name="s">
+				<label for="s">Java</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type=checkbox name="s">
+				<label for="s">Html Css</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="dob"> Choose Your DOB:</label></td>
+				<td><input type=date name="dob"></td>
+			</tr>
+			<tr>
+				<td><label for="res">Upload Your Resume:</label></td>
+				<td>
+				<input type=file name="res"></td>
+			</tr>
+			
+			<tr>
+				<td><label for="num"> Exprience:</label></td>
+				<td><input type=number name="num" min=2 max=5></td>
+			</tr>
+			<tr>
+			<td><label for=add>Enter your Address:</label></td>
+				<td><textarea name="add" rows="2" cols="20"></textarea></td>
+			</tr>
+			
+			
+			<td colspan=2><input type=checkbox name=agree>
+			<label for=agree>Data which I provided is True As per my Knowledge </label></td>
+			
+			<tr>
+			<th colspan=2><input type="submit"value="Click Here" >
+			<input type=reset ></th>
+			</tr>
+			
+			
+		</table>
+		
+	</form>
+
+</body>
+
+
+
+</html>
